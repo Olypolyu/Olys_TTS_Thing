@@ -7,4 +7,4 @@ I Use this to talk on discord without revealing my real voice. **No warranty wil
 
 If you are on windows you need to drop the binary inside this project's folder. Also, you need virtual audio cable as well.
 
-*quick tip: run ```./mpv.exe -audio-device=help | echo``` inside the project folder to get a list of audio outputs, from there just edit ```def speak()``` to use the audio device of your choice*
+*quick tip: run ```./mpv.exe -audio-device=help | echo``` inside the project folder to get a list of audio outputs. From there just edit ```def speak()``` to use the audio device of your choice*
